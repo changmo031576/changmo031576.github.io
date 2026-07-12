@@ -2,14 +2,21 @@
 type Props = { date: Date };
 
 const { date } = Astro.props;
+
+const englishDate = date.toLocaleDateString('en-GB', {
+    day: 'numeric',
+    month: 'short',
+    year: 'numeric'
+});
+
+const chineseDate = date.toLocaleDateString('zh-CN', {
+    year: 'numeric',
+    month: 'numeric',
+    day: 'numeric'
+});
 ---
 
 <time datetime={date.toISOString()}>
-    {
-        date.toLocaleDateString('en-us', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        })
-    }
+    <span class="lang-en">{englishDate}</span>
+    <span class="lang-zh" lang="zh-CN">{chineseDate}</span>
 </time>
