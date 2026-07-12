@@ -13,7 +13,7 @@ tags: ["Portfolio", "Introduction"]
 
 
 <h2>Buiding the site</h2>
-<p>This portfolio website is built with Astro.js and Tailwind CSS. Since this is my first time building a website like this, there is still a great deal for me to learn. I plan to continue improving it step by step as I gain more experience and deepen my understanding of modern web development.</p>
+<p>Since this is my first time building a website like this, there is still a great deal for me to learn. I plan to continue improving it step by step as I gain more experience and deepen my understanding of modern web development.</p>
 <p>Analyzing the template code, removing unnecessary components, fixing errors, and customizing it to suit my own needs was unfamiliar at first. However, as someone who frequently contributes to and edits Wikipedia, I found the process surprisingly engaging and enjoyable. I look forward to continuing to refine both this website and my skills over time.</p>
 
 <h2>Contents Posted Here</h2>
@@ -56,7 +56,7 @@ Thank you for taking the time to visit my website. I am still learning and explo
 <h2>网站搭建</h2>
 
 <p>
-本网站基于 <strong>Astro.js</strong> 和 <strong>Tailwind CSS</strong> 搭建。这是我第一次制作这样的网站，因此还有很多需要学习的地方。我希望随着经验的积累，不断完善这个网站，同时加深自己对现代 Web 开发技术的理解。
+这是我第一次制作这样的网站，因此还有很多需要学习的地方。我希望随着经验的积累，不断完善这个网站，同时加深自己对现代 Web 开发技术的理解。
 </p>
 
 <p>
