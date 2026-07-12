@@ -3,8 +3,8 @@ import type { SiteConfig } from '../types';
 const siteConfig: SiteConfig = {
     website: 'https://taehyun031576.github.io',
     avatar: {
-        src: '/avatar-placeholder.svg',
-        alt: 'Profile placeholder for Taehyun Kim / 金太贤'
+        src: '/quokka.jpeg',
+        alt: 'Profile photo of Taehyun Kim / 金太贤的个人照片'
     },
     title: 'Taehyun Kim / 金太贤',
     subtitle: '<span class="lang-en">Bachelor of Computer Science (Cyber Security), <a href="https://www.uow.edu.au" target="_blank" rel="noopener noreferrer" class="text-blue-900 dark:text-sky-300 underline decoration-dashed underline-offset-4 hover:decoration-solid hover:decoration-2">University of Wollongong</a></span><span class="lang-zh" lang="zh-CN">计算机科学学士（网络安全），<a href="https://www.uow.edu.au" target="_blank" rel="noopener noreferrer" class="text-blue-900 dark:text-sky-300 underline decoration-dashed underline-offset-4 hover:decoration-solid hover:decoration-2">伍伦贡大学</a></span>',
